@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var uglify = require('gulp-uglify');
+const autoprefixer = require('gulp-autoprefixer');
 
 //compile js
 gulp.task("scripts", function () {
@@ -19,6 +20,7 @@ gulp.task('css', function () {
       "maxLineLen": 80,
       "uglyComments": true
     }))
+    .pipe(autoprefixer())
     .pipe(gulp.dest('dist/css'));
 });
 
