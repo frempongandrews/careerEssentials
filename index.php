@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div class="main-container">
+    <div class="container">
         <h1>Hello</h1> 
     </div> <!-- end main-container -->
     

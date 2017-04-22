@@ -1,3 +1,6 @@
+//Run 'gulp' to watch all scripts and css files in dev. It 
+//automatically compile in dist folder
+
 var gulp = require('gulp');
 var uglify = require('gulp-uglify');
 const autoprefixer = require('gulp-autoprefixer');
@@ -38,4 +41,4 @@ gulp.task("watch", function () {
 
 //run scripts and css when changes occur
 
-gulp.task("default", ["scripts", "css"]);
+gulp.task("default", ["watch"]);

@@ -66,17 +66,6 @@ table {
     height: 900px;
 }
 
-h1{
-    animation: MyAnimation 2s;
-}
-
-@-webkit-keyframes MyAnimation {
-    0% { left: 0; }	
-   50% { left: 200px; }	
-  100% { left: 20px; }	
-}
-@keyframes MyAnimation {
-    0% { left: 0; }	
-   50% { left: 200px; }	
-  100% { left: 20px; }	
+body{
+    
 }
