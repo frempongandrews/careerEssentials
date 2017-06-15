@@ -54,3 +54,82 @@ table {
   Custom styles
   ==========================================================
 */
+
+
+/*
+  ==========================================================
+  Header styles
+  ==========================================================
+*/
+
+.main-container {
+    padding: 10px 40px
+}
+
+.header-image-container {
+    background: url('../../images/header-main-background-img.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 900px;
+}
+
+header {
+    color: white;
+}
+
+header-items {
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+}
+
+.company-name {
+    font-size: 22px;
+    border: 3px solid red;
+    margin-top: 15px
+}
+
+.logo {
+    border: 3px solid red;
+    background: url('../../images/header-logo.png') no-repeat center center;
+    height: 161px;
+}
+
+.menu {
+    border: 3px solid red;
+    background: url('../../images/header-menu-icon.png') no-repeat center center;
+    height: 63px;
+
+}
+
+.header-feature-text{
+  text-align: center;
+  width: 75%;
+  margin: 30% auto;
+}
+
+.header-feature-text h1{
+  font-size: 30px
+}
+
+.header-feature-text p {
+  margin-top: 20px;
+  line-height: 25px
+}
+
+
+/*example media query*/
+
+
+/*@media screen and (max-width: 800px) {
+    #bg {
+        max-height: 50%;
+        min-height: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #bg {
+        max-height: 35%;
+        min-height: 35%;
+    }
+}*/
