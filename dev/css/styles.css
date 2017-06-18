@@ -48,6 +48,17 @@ table {
   ==========================================================
 */
 
+/*
+  ==========================================================
+  Miscellaneous
+  ==========================================================
+*/
+/*PURPLE COLOR*/
+/* color: #8413df; */
+
+
+
+
 
 /*
   ==========================================================
@@ -63,7 +74,11 @@ table {
 */
 
 .main-container {
-    padding: 10px 40px
+    /*padding: 10px 40px*/
+    max-width: 1600px;
+    margin: 0 auto;
+
+
 }
 
 .header-image-container {
@@ -74,10 +89,10 @@ table {
 
 header {
     color: white;
+
 }
 
 header-items {
-    display: inline-block;
     text-align: center;
     height: 40px;
 }
@@ -92,12 +107,14 @@ header-items {
     border: 3px solid red;
     background: url('../../images/header-logo.png') no-repeat center center;
     height: 161px;
+
 }
 
 .menu {
     border: 3px solid red;
     background: url('../../images/header-menu-icon.png') no-repeat center center;
     height: 63px;
+
 
 }
 
@@ -115,6 +132,179 @@ header-items {
   margin-top: 20px;
   line-height: 25px
 }
+
+.path-header{
+  height: 250px;
+  border: 2px solid red;
+  padding-top: 40px;
+  position: relative;
+  margin-bottom: 20px
+}
+
+.path-header h2{
+  width: 80%;
+  font-size: 25px;
+  /*PURPLE COLOR*/
+  color: #8413df;
+  margin: 10px auto;
+  text-align: center;
+  position: relative;
+}
+
+.path-header p{
+  width: 70%;
+  text-align: center;
+  border: 2px solid red;
+  margin: 10px auto;
+  line-height: 25px
+}
+
+.path-header::after{
+  content: "";
+  display: inline-block;
+  width: 100px;
+  height: 3px;
+  background-color: #8413df;
+  position: absolute;
+  left: 45%;
+  /* TODO: make the bottom vary based on screen size*/
+  bottom: 80px;
+}
+
+
+/*======== PATHS SECTION ========*/
+.path-detail-item{
+  text-align: center;
+  padding: 0 40px
+}
+.path-detail-image-container{
+
+  width: 170px;
+  height: 170px;
+  border: 2px solid #8413df;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.job-hunt{
+  background: url('../../images/path-job-hunt-icon.png') no-repeat center center;
+}
+
+.career-path-image-container{
+  background: url('../../images/path-career-path-icon.png') no-repeat center center;
+}
+
+.international-student-image-container{
+  background: url('../../images/path-international-student-icon.png') no-repeat center center;
+}
+
+div.job-hunt-path, div.career-path, div.international-student{
+  margin-top: 15px;
+}
+
+.job-hunt-path h3, .career-path h3, .international-student h3{
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.job-hunt-path p, .career-path p, .international-student p{
+  line-height: 25px;
+}
+
+.explore a{
+  text-decoration: none;
+  color: black;
+  display: block;
+  border: 2px solid #8413df;
+  border-radius: 10px;
+  padding: 2px 15px;
+  margin-top: 10px;
+}
+
+.explore{
+  border: 1px solid white;
+  background-color: white;
+
+}
+
+
+/*========= PATHS DESCRIPTION ========*/
+.paths-description-container{
+  margin-top: 100px
+}
+
+.job-hunt-description-content, .career-path-description-content, .international-student-description-content{
+  position: relative;
+  padding: 0 30px;
+}
+
+.job-hunt-description-image-container{
+  background: url('../../images/job-hunt-description-image.jpg') no-repeat left center;
+  height: 50%;
+  background-size: cover;
+}
+
+.job-hunt-description-content h3, .career-path-description-content h3, .international-student-description-content h3{
+  margin-top: 20px
+}
+
+.job-hunt-description-content p, .career-path-description-content p, .international-student-description-content p{
+  line-height: 25px;
+  margin-top: 20px
+}
+
+.explore-job-hunt-button{
+  position: absolute;
+  left: 10px;
+  bottom: -80px;
+}
+
+.explore-career-path-button{
+  position: absolute;
+  right: 10px;
+  bottom: -80px;
+}
+
+.explore-international-student-button{
+  position: absolute;
+left: 10px;
+  bottom: -80px;
+}
+
+.career-path-description-image-container{
+  background: url('../../images/job-hunt-description-image.jpg') no-repeat left center;
+  height: 50%;
+  background-size: cover;
+}
+
+
+.international-student-description-image-container{
+  background: url('../../images/international-student-description-image.jpg') no-repeat right center;
+  height: 50%;
+  background-size: cover;
+}
+
+
+.feature-image-container{
+  background: url('../../images/international-student-description-image.jpg') no-repeat right center;
+  height: 50%;
+  margin-top: 50px;
+  background-size: cover;
+  color: white;
+}
+
+.feature-image-container p{
+  width: 70%;
+  margin-top: 15%;
+  margin-left: 20%;
+  line-height: 35px;
+}
+
+
+
+
+
 
 
 /*example media query*/
