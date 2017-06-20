@@ -29,4 +29,19 @@ div.job-hunt-path,div.career-path,div.international-student{margin-top:15px}.job
 .about-us{padding:50px 20px;width:80%;margin:0 auto}.about-us-header-image-container{background:url('../../images/about-us-header-image.jpg') no-repeat right center;height:40%;background-size:cover}
 .about-us-header-primary-content h3{margin-bottom:20px;padding-left:15px}.about-us-header-primary-content p{padding:0 15px;line-height:25px;margin-bottom:15px}
 .about-us-feature-image-container{margin-top:35px;margin-bottom:35px;background:url('../../images/about-us-feature-image.jpg') no-repeat center center;height:50%;background-size:cover}
-.about-us-secondary-content p{line-height:25px;margin-bottom:15px}
+.about-us-secondary-content p{line-height:25px;margin-bottom:15px}.feature-section-2-image-container{background:url('../../images/about-us-feature-image.jpg') no-repeat center center;height:300px;background-size:cover}
+.feature-section-2-content{height:300px;padding:5% 1% 5% 10%;background-color:#8413df;color:white;overflow-y:hidden}
+.feature-section-2-content h3{font-size:22px;margin-bottom:10px}.feature-section-2-content p{line-height:22px}
+.feature-section-3-image-container{background:url('../../images/about-us-feature-image.jpg') no-repeat center center;height:300px;background-size:cover;padding:10%;color:white}
+.feature-section-3-image-container h4{font-size:20px;margin-bottom:20px}.feature-section-3-image-container p{line-height:25px}
+.about-us{margin-top:20px}.about-us-content{text-align:center}.about-us-content h2{margin-bottom:15px}
+.about-us-content p{width:60%;margin:0 auto;margin-bottom:60px}#contact{padding:10px 0 10px}
+.contact-text{margin:45px auto}.mail-message-area{width:100%;padding:0 15px}.mail-message{width:100%;background:rgba(255,255,255,0.8) !important;transition:all .7s;margin:0 auto;border-radius:0}
+.not-visible-message{height:0;opacity:0}.visible-message{height:auto;opacity:1;margin:25px auto 0}
+.form{width:100%;padding:15px;background:#f8f8f8;border:1px solid rgba(0,0,0,0.075);margin-bottom:25px;color:#727272 !important;font-size:13px;transition:all .4s}
+.form:hover{border:1px solid #8bc3a3}.form:focus{color:white;outline:0;border:1px solid #8bc3a3}
+.textarea{height:200px;max-height:200px;max-width:100%}.button{padding:8px 12px;background:#0a5175;display:block;width:120px;margin:10px 0 0 0;border-radius:3px;transition:all .3s;text-align:center;font-size:.8em;box-shadow:0 1px 4px rgba(0,0,0,0.10);-moz-box-shadow:0 1px 4px rgba(0,0,0,0.10);-webkit-box-shadow:0 1px 4px rgba(0,0,0,0.10)}
+.button:hover{background:#8bc3a3;color:white}.form-btn{width:180px;display:block;height:auto;padding:15px;color:#fff;background:#8413df;border:0;border-radius:3px;outline:0;transition:all .3s;margin:auto;box-shadow:0 1px 4px rgba(0,0,0,0.10);-moz-box-shadow:0 1px 4px rgba(0,0,0,0.10);-webkit-box-shadow:0 1px 4px rgba(0,0,0,0.10)}
+.form-btn:hover{background:#111;color:white;border:0}.form-btn:active{opacity:.9}
+center{margin-top:330px}input{position:relative;z-index:9999}footer{background-color:aqua;padding-top:50px}
+footer p{background-color:grey;color:white;text-align:center;line-height:90px;margin-top:50px}
